@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Luxury Plate</title>
+
+    <!-- FONT & ICON -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--  HEADER  -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand">Luxury<span>Plate</span></a>
+        <button class="nav-toggle" id="navToggle">
+          <span class="bar"></span><span class="bar"></span
+          ><span class="bar"></span>
+        </button>
+        <nav class="nav" id="navMenu">
+          <ul class="nav-list">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#menu" class="nav-link">Menu</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- =========================
+     HERO SECTION
+========================= -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <!-- Bagian teks: tambahkan fade-in -->
+        <div class="hero-text fade-in">
+          <h1>
+            Selamat Datang di <br />
+            <span style="color: #fffaf0">Restoran</span> Luxury Plate
+          </h1>
+          <p>Nikmati Cita Rasa Premium dalam Sentuhan Kemewahan.</p>
+          <a href="#menu" class="btn">Lihat Menu</a>
+        </div>
+
+        <!-- Bagian gambar: tambahkan fade-in juga -->
+        <figure class="hero-img fade-in">
+          <img src="img/logo_luxury_plate.png" alt="Logo Luxury Plate" />
+        </figure>
+      </div>
+    </section>
+
+    <!--  ABOUT  -->
+    <section id="about" class="about section fade-in">
+      <div class="container section-inner">
+        <div class="about-image">
+          <img src="img/resto.png" alt="Interior mewah restoran" />
+        </div>
+        <div class="about-content">
+          <h2 class="section-title">Tentang Kami</h2>
+          <p>
+            Kami menghadirkan perpaduan rasa, estetika, dan pelayanan premium
+            untuk pengalaman kuliner yang tak terlupakan di setiap suapan.
+          </p>
+          <ul class="features">
+            <li>Harga terjangkau, rasa bintang lima</li>
+            <li>Chef profesional berpengalaman</li>
+            <li>Suasana nyaman, elegan, dan WiFi cepat</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="menu section fade-in">
+      <div class="container">
+        <h2 class="section-title">Menu Andalan</h2>
+
+        <!-- ===== MINUMAN ===== -->
+        <h3 class="menu-category">Minuman</h3>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="img/hotblack_coffe.png" alt="Hot Black Coffee" />
+            <div class="menu-body">
+              <h3>Hot Black Coffee</h3>
+              <p>Kopi hitam panas dengan rasa kuat dan aroma khas.</p>
+              <div class="price">Rp12.000</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/matcha_latte.png" alt="Matcha Latte" />
+            <div class="menu-body">
+              <h3>Matcha Latte</h3>
+              <p>Campuran matcha dan susu dengan rasa lembut dan creamy.</p>
+              <div class="price">Rp18.000</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/cappucino.png" alt="Cappuccino" />
+            <div class="menu-body">
+              <h3>Cappuccino</h3>
+              <p>Espresso dengan susu panas dan busa lembut di atasnya.</p>
+              <div class="price">Rp20.000</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/creamyicedcoffe.png" alt="Creamy Iced Coffee" />
+            <div class="menu-body">
+              <h3>Creamy Iced Coffee</h3>
+              <p>Kopi susu dingin dengan rasa manis dan creamy.</p>
+              <div class="price">Rp16.000</div>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== MAKANAN & DESSERT ===== -->
+        <h3 class="menu-category">Makanan & Dessert</h3>
+        <div class="menu-grid">
+          <article class="menu-card">
+            <img src="img/Spaghetti_Carbonara.png" alt="Spaghetti Carbonara" />
+            <div class="menu-body">
+              <h3>Spaghetti Carbonara</h3>
+              <p>Pasta saus creamy dengan keju dan smoked beef.</p>
+              <div class="price">Rp18.000</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/spaghetti_bolognese.png" alt="Spaghetti Bolognese" />
+            <div class="menu-body">
+              <h3>Spaghetti Bolognese</h3>
+              <p>Spaghetti saus tomat dan daging cincang khas Italia.</p>
+              <div class="price">Rp20.000</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/cheese_cake.png" alt="Cheese Cake" />
+            <div class="menu-body">
+              <h3>Cheese Cake</h3>
+              <p>Kue lembut dengan rasa keju creamy dan topping buah segar.</p>
+              <div class="price">Rp20.000</div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="img/pudding_caramel.png" alt="Puding Caramel" />
+            <div class="menu-body">
+              <h3>Puding Caramel</h3>
+              <p>
+                Puding lembut berlapis saus karamel manis dengan rasa kaya dan
+                halus.
+              </p>
+              <div class="price">Rp16.000</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT  -->
+    <section id="contact" class="contact section fade-in">
+      <div class="container section-inner">
+        <div class="contact-form">
+          <h2 class="section-title">Hubungi Kami</h2>
+          <form id="contactForm" onsubmit="sendToWhatsApp(event)">
+            <div class="field">
+              <label for="name"><i class="fa-solid fa-user"></i> Nama</label>
+              <input id="name" name="name" required />
+            </div>
+            <div class="field">
+              <label for="email"
+                ><i class="fa-solid fa-envelope"></i> Email</label
+              >
+              <input id="email" type="email" name="email" required />
+            </div>
+            <div class="field">
+              <label for="message"
+                ><i class="fa-solid fa-message"></i> Pesan</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">
+              <i class="fa-brands fa-whatsapp"></i> Kirim via WhatsApp
+            </button>
+          </form>
+          <p class="note">
+            * Pesan akan dikirim langsung ke WhatsApp restoran kami.
+          </p>
+        </div>
+
+        <div class="contact-info">
+          <h3><i class="fa-solid fa-location-dot"></i> Alamat</h3>
+          <p>Jl. Lawu No.03, Kel. Kramat, Kab. Nganjuk</p>
+          <h3><i class="fa-solid fa-clock"></i> Jam Buka</h3>
+          <p>Senin - Jumat: 08:00 - 16:00</p>
+          <h3><i class="fa-solid fa-phone"></i> Telepon</h3>
+          <p>+62 877 0111 2844</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer fade-in">
+      <div class="container footer-inner">
+        <p>
+          &copy; <span id="year"></span> Luxury Plate — Semua hak cipta
+          dilindungi.
+        </p>
+
+        <div class="social-icons" style="margin-top: 0.5rem">
+          <!-- Instagram -->
+          <a
+            href="https://www.instagram.com/luxury.platee?igsh=cDQ1aWxnM2YxYXc0"
+            title="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color: #d6b46a; margin: 0 6px"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <!-- Facebook -->
+          <a
+            href="-"
+            title="Facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color: #d6b46a; margin: 0 6px"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+
+          <!-- Twitter/X -->
+          <a
+            href="-"
+            title="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color: #d6b46a; margin: 0 6px"
+          >
+            <i class="fab fa-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
